@@ -7,7 +7,7 @@ import Home from "./home";
 
 function Header() {
   return (
-    <div className="container">
+    <div>
       <header className="header">
         <div className="logo">
           <img className="logo-box" src={logo} alt="Logo" />
