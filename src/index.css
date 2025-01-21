@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(66, 58, 58);
+  padding: 10px 20px;
+  height: 60px;
+  color: white;
+}
+
+.logo {
+  flex: 0.2;
+  margin-left: 40px;
+  
+  
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex: 0.6;
+  position: relative;
+}
+
+.search-box {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  background-color: rgb(255, 81, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 0.2;
+  font-weight: 15px;
+  padding: 2px;
+  
+}
+.search-btn svg{
+  font-size: 18px;
+}
+
+.nav-links-right span,
+.login-btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+
+.login-btn {
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: rgb(170, 161, 161);
+}
+.second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color:white;
+  padding: 10px 20px;
+  height: 40px;
+  border-bottom: 3px solid whitesmoke;
+
+
+}
+.second1{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color:white;
+  padding: 10px 20px;
+  height: 40px;
+  border-bottom: 2px solid whitesmoke;
+
+}
+.pricepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+.price-box{
+  border: 1px solid black;
+  color: rgb(184, 172, 172) ;
+  width: 100px;
+  padding-left: 3px;
+
+
+}
+.price{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold
+  
+}
+.price1{
+  margin-right:160px
+}
+.heading{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold
+}
+.sectoion1{
+  background-color:#ccc
+}
